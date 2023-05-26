@@ -1,0 +1,70 @@
+
+.cati .panal-body{
+	padding:0;
+}
+.cati .cat h3{
+	margin : 0 0 10px;	
+}
+.cati .cat {
+	padding:15px;
+position:relative	;
+overflow:hidden;
+}
+
+.cati .cat:last-of-type ~hr{
+	display : none;
+}
+.cati .cat .vsib{
+	
+	background :#bd0000;
+	color : white;
+	margin-left:10px;
+	border-radius:6px;
+}
+ .cati .cat .coment{
+	 
+	 background :#0d4473;
+	color : white;
+	margin-left:10px;
+	border-radius:6px;
+ }
+ 
+ .cati .cat .ad{
+	 
+	 background :#9e8b00;
+	color : white;
+	margin-left:10px;
+	border-radius:6px;
+ }
+ 
+ .cati .cat  .hidden-buttons a{
+	 
+	 margin-left:2px
+ }
+ 
+ .cati .cat  .hidden-buttons {
+	 
+	 transition:all .20s ease-in-out;
+	 position : absolute;
+	 top : 15px;
+	  right : 100%;
+ }
+  .cati .cat:hover .hidden-buttons{
+	  
+	  right :58%
+  }
+   .cati .cat:hover{
+	   
+	   background : #666666
+   }
+   
+   .cati .ordering .active {
+	   color: white
+   }
+   .cati .ordering a{
+	   
+	   color:red;
+	   text-decoration:none;
+   }
+   
+   
